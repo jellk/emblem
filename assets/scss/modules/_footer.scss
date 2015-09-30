@@ -1,0 +1,53 @@
+// Footer
+footer {
+	position: relative;
+	height: 400px;
+	// background-image: url('../images/grill.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	margin: 0 auto;
+	padding: 0;
+	color: #fff;
+
+	
+
+	#footer-text {
+		margin-top: em(25);
+	}
+}
+
+a.social {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer h4 {
+	font-size: em(22);
+}
+.social-icons, .social-media p {
+	margin-top: em(10)
+}
+
+.social-icons {
+	font-size: em(50);
+}
+.social-media p {
+	font-size: em(20);
+}
+
+footer p {
+	letter-spacing: 0;
+}
+
+
+
+.social-media img {
+	margin-top: 74px;
+}
+
+.copyright {
+	margin-top: em(16);
+	// font-size: em(10);
+	letter-spacing: 0;
+}

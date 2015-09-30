@@ -1,0 +1,19 @@
+// ==========================================================================
+// Global Base Settings override
+// ==========================================================================
+
+body, html{
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  letter-spacing: em(4);
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.container {
+	max-width: 900px;
+}

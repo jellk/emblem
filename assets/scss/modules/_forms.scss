@@ -1,0 +1,37 @@
+//Form
+
+.footer_img {
+	margin-bottom: 30px;
+}
+
+.form-control {
+	border-radius: 0;
+	width: em(350);
+}
+
+.newsletter-title {
+	margin-bottom: 13px;
+}
+
+.submit-btn {
+	background-image: url('../images/button-bg.jpg');
+	cursor: pointer;
+	border: none;
+	border-radius: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	letter-spacing: em(3);
+	font-size: em(20);
+}
+
+.form-control::-moz-placeholder {
+	color: #000; 
+	opacity: 1; 
+}
+.form-control:-ms-input-placeholder {
+	color: #000; 
+}
+.form-control::-webkit-input-placeholder {
+	color: #000; 
+}

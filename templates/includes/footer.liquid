@@ -1,0 +1,16 @@
+<footer>
+	<img src="{{'footer_img.jpg' | asset_url}}" alt="" class="img-responsive footer_img">	
+	<div class="row">
+		<!-- MailChimp Form -->
+		<div class="col-sm-6">
+			{% include "mailchimp-form" %}
+		</div>
+		<!--Social Media -->
+		<div class="col-sm-5 col-sm-offset-1">
+			{% include "social-media" %}
+		</div>
+	</div>
+
+	<!-- Footer Text -->
+	{% include "copyright" %}
+</footer>
